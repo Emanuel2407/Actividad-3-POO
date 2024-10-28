@@ -13,7 +13,7 @@ public class Circulo extends FiguraGeometrica{
         this.radio = radio;
    }
    
-   public Circulo(double radio,String color, boolean relleno){
+   public Circulo(double radio, String color, boolean relleno){
        super(color, relleno);
        
        this.radio = radio;
@@ -55,11 +55,11 @@ public class Circulo extends FiguraGeometrica{
        String descripcionCirculo;
        
        if(getRelleno()){
-           descripcionCirculo = "Este circulo tiene un área de: " + this.getArea() + ", un perímetro de: " + getPerimetro() + 
-                   ", es de color: " + getColor() + " y sí esta relleno";
+           descripcionCirculo = "Este circulo tiene un área de: " + this.getArea() + ", un perímetro de: " + this.getPerimetro() + 
+                   ", es de color: " + getColor() + " y SÍ esta relleno";
        }else{
            descripcionCirculo = "Este circulo tiene un área de: " + getArea() + ", un perímetro de: " + getPerimetro() + 
-                   ", es de color: " + getColor() + " y no esta relleno";
+                   ", es de color: " + getColor() + " y NO esta relleno";
        }
        
        return descripcionCirculo;
