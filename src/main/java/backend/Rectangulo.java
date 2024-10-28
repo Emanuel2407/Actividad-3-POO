@@ -64,10 +64,10 @@ public class Rectangulo extends FiguraGeometrica{
         
         if(getRelleno()){
            descripcionRectangulo = "Este rectángulo tiene un área de: " + this.getArea() + ", un perímetro de: " + this.getPerimetro() + 
-                   ", es de color: " + getColor() + " y SÍ esta relleno";
+                   ", es de color: " + getColor() + " y SÍ esta relleno.";
        }else{
            descripcionRectangulo = "Este rectángulo tiene un área de: " + this.getArea() + ", un perímetro de: " + this.getPerimetro() + 
-                   ", es de color: " + getColor() + " y NO esta relleno";
+                   ", es de color: " + getColor() + " y NO esta relleno.";
        }
         
         return descripcionRectangulo;

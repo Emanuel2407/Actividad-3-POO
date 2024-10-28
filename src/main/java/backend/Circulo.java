@@ -56,10 +56,10 @@ public class Circulo extends FiguraGeometrica{
        
        if(getRelleno()){
            descripcionCirculo = "Este circulo tiene un área de: " + this.getArea() + ", un perímetro de: " + this.getPerimetro() + 
-                   ", es de color: " + getColor() + " y SÍ esta relleno";
+                   ", es de color: " + getColor() + " y SÍ esta relleno.";
        }else{
            descripcionCirculo = "Este circulo tiene un área de: " + getArea() + ", un perímetro de: " + getPerimetro() + 
-                   ", es de color: " + getColor() + " y NO esta relleno";
+                   ", es de color: " + getColor() + " y NO esta relleno.";
        }
        
        return descripcionCirculo;

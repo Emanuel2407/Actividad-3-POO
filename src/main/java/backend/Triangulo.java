@@ -74,10 +74,10 @@ public class Triangulo extends FiguraGeometrica{
         
         if(getRelleno()){
            descripcionTriangulo = "Este triángulo tiene un área de: " + this.getArea() + ", un perímetro de: " + this.getPerimetro() + 
-                   ", es de color: " + getColor() + " y SÍ esta relleno";
+                   ", es de color: " + getColor() + " y SÍ esta relleno.";
        }else{
            descripcionTriangulo = "Este triángulo tiene un área de: " + this.getArea() + ", un perímetro de: " + this.getPerimetro() + 
-                   ", es de color: " + getColor() + " y NO esta relleno";
+                   ", es de color: " + getColor() + " y NO esta relleno.";
        }
         return descripcionTriangulo;
     }
