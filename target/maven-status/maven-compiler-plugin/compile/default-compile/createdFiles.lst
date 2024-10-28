@@ -1,0 +1,5 @@
+backend\Rectangulo.class
+backend\Triangulo.class
+backend\FiguraGeometrica.class
+frontend\Vista.class
+backend\Circulo.class
